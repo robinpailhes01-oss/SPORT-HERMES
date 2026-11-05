@@ -1,0 +1,1641 @@
+{
+  "demo": true,
+  "source": "whoop-export",
+  "generator": "scripts/generate-demo.mjs",
+  "exported_at": "2026-11-05 07:12:04",
+  "timezone": "Europe/Paris",
+  "physiological_cycles": [
+    {
+      "Cycle start time": "2026-11-04 22:46:55",
+      "Recovery score %": 52,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 3.4,
+      "Sleep performance %": 97,
+      "Asleep duration (min)": 452,
+      "Respiratory rate (rpm)": 15.4
+    },
+    {
+      "Cycle start time": "2026-11-03 23:04:38",
+      "Recovery score %": 30,
+      "Resting heart rate (bpm)": 52,
+      "Heart rate variability (ms)": 65,
+      "Day Strain": 12,
+      "Sleep performance %": 86,
+      "Asleep duration (min)": 419,
+      "Respiratory rate (rpm)": 15.4
+    },
+    {
+      "Cycle start time": "2026-11-02 23:12:48",
+      "Recovery score %": 60,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 73,
+      "Day Strain": 15.3,
+      "Sleep performance %": 93,
+      "Asleep duration (min)": 450,
+      "Respiratory rate (rpm)": 15.5
+    },
+    {
+      "Cycle start time": "2026-11-01 22:57:13",
+      "Recovery score %": 80,
+      "Resting heart rate (bpm)": 46,
+      "Heart rate variability (ms)": 81,
+      "Day Strain": 14.8,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 431,
+      "Respiratory rate (rpm)": 14.8
+    },
+    {
+      "Cycle start time": "2026-10-31 21:23:58",
+      "Recovery score %": 17,
+      "Resting heart rate (bpm)": 52,
+      "Heart rate variability (ms)": 57,
+      "Day Strain": 5.3,
+      "Sleep performance %": 56,
+      "Asleep duration (min)": 289,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-10-30 21:32:56",
+      "Recovery score %": 41,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 65,
+      "Day Strain": 19.5,
+      "Sleep performance %": 80,
+      "Asleep duration (min)": 400,
+      "Respiratory rate (rpm)": 15.4
+    },
+    {
+      "Cycle start time": "2026-10-29 22:26:28",
+      "Recovery score %": 31,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 63,
+      "Day Strain": 16.6,
+      "Sleep performance %": 79,
+      "Asleep duration (min)": 389,
+      "Respiratory rate (rpm)": 15.5
+    },
+    {
+      "Cycle start time": "2026-10-28 22:29:30",
+      "Recovery score %": 49,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 68,
+      "Day Strain": 15.7,
+      "Sleep performance %": 93,
+      "Asleep duration (min)": 441,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-10-27 23:05:48",
+      "Recovery score %": 39,
+      "Resting heart rate (bpm)": 51,
+      "Heart rate variability (ms)": 66,
+      "Day Strain": 13,
+      "Sleep performance %": 81,
+      "Asleep duration (min)": 388,
+      "Respiratory rate (rpm)": 15.4
+    },
+    {
+      "Cycle start time": "2026-10-26 23:11:09",
+      "Recovery score %": 39,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 65,
+      "Day Strain": 14.1,
+      "Sleep performance %": 92,
+      "Asleep duration (min)": 456,
+      "Respiratory rate (rpm)": 15
+    },
+    {
+      "Cycle start time": "2026-10-25 23:04:40",
+      "Recovery score %": 58,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 71,
+      "Day Strain": 16.4,
+      "Sleep performance %": 88,
+      "Asleep duration (min)": 406,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-10-24 23:10:31",
+      "Recovery score %": 53,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 11.2,
+      "Sleep performance %": 88,
+      "Asleep duration (min)": 427,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-10-23 21:45:56",
+      "Recovery score %": 56,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 70,
+      "Day Strain": 14.3,
+      "Sleep performance %": 80,
+      "Asleep duration (min)": 344,
+      "Respiratory rate (rpm)": 14.6
+    },
+    {
+      "Cycle start time": "2026-10-22 23:25:07",
+      "Recovery score %": 45,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 65,
+      "Day Strain": 6.9,
+      "Sleep performance %": 91,
+      "Asleep duration (min)": 446,
+      "Respiratory rate (rpm)": 15.7
+    },
+    {
+      "Cycle start time": "2026-10-21 22:45:40",
+      "Recovery score %": 59,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 73,
+      "Day Strain": 15.5,
+      "Sleep performance %": 93,
+      "Asleep duration (min)": 431,
+      "Respiratory rate (rpm)": 15.6
+    },
+    {
+      "Cycle start time": "2026-10-20 22:50:23",
+      "Recovery score %": 75,
+      "Resting heart rate (bpm)": 47,
+      "Heart rate variability (ms)": 77,
+      "Day Strain": 11.8,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 442,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-10-19 22:34:24",
+      "Recovery score %": 61,
+      "Resting heart rate (bpm)": 47,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 7,
+      "Sleep performance %": 94,
+      "Asleep duration (min)": 456,
+      "Respiratory rate (rpm)": 15.7
+    },
+    {
+      "Cycle start time": "2026-10-18 23:09:25",
+      "Recovery score %": 78,
+      "Resting heart rate (bpm)": 47,
+      "Heart rate variability (ms)": 81,
+      "Day Strain": 14.9,
+      "Sleep performance %": 95,
+      "Asleep duration (min)": 411,
+      "Respiratory rate (rpm)": 14.7
+    },
+    {
+      "Cycle start time": "2026-10-17 23:38:20",
+      "Recovery score %": 60,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 7.1,
+      "Sleep performance %": 85,
+      "Asleep duration (min)": 433,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-10-16 23:01:07",
+      "Recovery score %": 77,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 79,
+      "Day Strain": 18.1,
+      "Sleep performance %": 98,
+      "Asleep duration (min)": 458,
+      "Respiratory rate (rpm)": 14.6
+    },
+    {
+      "Cycle start time": "2026-10-15 23:26:06",
+      "Recovery score %": 54,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 68,
+      "Day Strain": 12,
+      "Sleep performance %": 87,
+      "Asleep duration (min)": 412,
+      "Respiratory rate (rpm)": 14.8
+    },
+    {
+      "Cycle start time": "2026-10-14 22:26:48",
+      "Recovery score %": 70,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 79,
+      "Day Strain": 13.4,
+      "Sleep performance %": 90,
+      "Asleep duration (min)": 402,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-10-13 22:35:57",
+      "Recovery score %": 62,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 9.4,
+      "Sleep performance %": 88,
+      "Asleep duration (min)": 403,
+      "Respiratory rate (rpm)": 15
+    },
+    {
+      "Cycle start time": "2026-10-12 22:59:17",
+      "Recovery score %": 58,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 71,
+      "Day Strain": 10.9,
+      "Sleep performance %": 97,
+      "Asleep duration (min)": 447,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-10-11 22:38:03",
+      "Recovery score %": 92,
+      "Resting heart rate (bpm)": 47,
+      "Heart rate variability (ms)": 83,
+      "Day Strain": 11.4,
+      "Sleep performance %": 88,
+      "Asleep duration (min)": 387,
+      "Respiratory rate (rpm)": 15.4
+    },
+    {
+      "Cycle start time": "2026-10-10 23:06:31",
+      "Recovery score %": 73,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 77,
+      "Day Strain": 8.4,
+      "Sleep performance %": 90,
+      "Asleep duration (min)": 414,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-10-09 21:55:27",
+      "Recovery score %": 33,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 62,
+      "Day Strain": 11.5,
+      "Sleep performance %": 64,
+      "Asleep duration (min)": 322,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-10-08 23:00:06",
+      "Recovery score %": 51,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 68,
+      "Day Strain": 17,
+      "Sleep performance %": 84,
+      "Asleep duration (min)": 422,
+      "Respiratory rate (rpm)": 15.5
+    },
+    {
+      "Cycle start time": "2026-10-07 23:33:53",
+      "Recovery score %": 77,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 76,
+      "Day Strain": 17,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 479,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-10-06 23:22:01",
+      "Recovery score %": 64,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 74,
+      "Day Strain": 13.1,
+      "Sleep performance %": 90,
+      "Asleep duration (min)": 439,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-10-05 23:01:42",
+      "Recovery score %": 71,
+      "Resting heart rate (bpm)": 46,
+      "Heart rate variability (ms)": 75,
+      "Day Strain": 15.4,
+      "Sleep performance %": 83,
+      "Asleep duration (min)": 403,
+      "Respiratory rate (rpm)": 15.5
+    },
+    {
+      "Cycle start time": "2026-10-04 22:56:32",
+      "Recovery score %": 99,
+      "Resting heart rate (bpm)": 45,
+      "Heart rate variability (ms)": 86,
+      "Day Strain": 14.7,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 441,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-10-03 22:43:18",
+      "Recovery score %": 30,
+      "Resting heart rate (bpm)": 51,
+      "Heart rate variability (ms)": 61,
+      "Day Strain": 8.1,
+      "Sleep performance %": 84,
+      "Asleep duration (min)": 437,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-10-02 21:30:47",
+      "Recovery score %": 43,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 67,
+      "Day Strain": 19.8,
+      "Sleep performance %": 75,
+      "Asleep duration (min)": 364,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-10-01 22:53:03",
+      "Recovery score %": 60,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 14.4,
+      "Sleep performance %": 91,
+      "Asleep duration (min)": 452,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-09-30 23:11:56",
+      "Recovery score %": 53,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 71,
+      "Day Strain": 16.3,
+      "Sleep performance %": 84,
+      "Asleep duration (min)": 403,
+      "Respiratory rate (rpm)": 15.4
+    },
+    {
+      "Cycle start time": "2026-09-29 22:56:47",
+      "Recovery score %": 45,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 64,
+      "Day Strain": 13.8,
+      "Sleep performance %": 93,
+      "Asleep duration (min)": 442,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-09-28 23:36:48",
+      "Recovery score %": 83,
+      "Resting heart rate (bpm)": 47,
+      "Heart rate variability (ms)": 76,
+      "Day Strain": 13.4,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 447,
+      "Respiratory rate (rpm)": 14.8
+    },
+    {
+      "Cycle start time": "2026-09-27 22:28:50",
+      "Recovery score %": 31,
+      "Resting heart rate (bpm)": 53,
+      "Heart rate variability (ms)": 57,
+      "Day Strain": 7.5,
+      "Sleep performance %": 97,
+      "Asleep duration (min)": 439,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-09-26 21:50:38",
+      "Recovery score %": 32,
+      "Resting heart rate (bpm)": 52,
+      "Heart rate variability (ms)": 62,
+      "Day Strain": 9.9,
+      "Sleep performance %": 76,
+      "Asleep duration (min)": 321,
+      "Respiratory rate (rpm)": 15.4
+    },
+    {
+      "Cycle start time": "2026-09-25 21:55:43",
+      "Recovery score %": 10,
+      "Resting heart rate (bpm)": 57,
+      "Heart rate variability (ms)": 37,
+      "Day Strain": 5.5,
+      "Sleep performance %": 68,
+      "Asleep duration (min)": 309,
+      "Respiratory rate (rpm)": 16.1
+    },
+    {
+      "Cycle start time": "2026-09-24 23:17:23",
+      "Recovery score %": 10,
+      "Resting heart rate (bpm)": 55,
+      "Heart rate variability (ms)": 47,
+      "Day Strain": 5,
+      "Sleep performance %": 96,
+      "Asleep duration (min)": 439,
+      "Respiratory rate (rpm)": 16.3
+    },
+    {
+      "Cycle start time": "2026-09-23 22:42:32",
+      "Recovery score %": 9,
+      "Resting heart rate (bpm)": 59,
+      "Heart rate variability (ms)": 36,
+      "Day Strain": 4.9,
+      "Sleep performance %": 71,
+      "Asleep duration (min)": 363,
+      "Respiratory rate (rpm)": 16.8
+    },
+    {
+      "Cycle start time": "2026-09-22 23:05:14",
+      "Recovery score %": 51,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 63,
+      "Day Strain": 13.2,
+      "Sleep performance %": 95,
+      "Asleep duration (min)": 454,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-09-21 22:34:37",
+      "Recovery score %": 24,
+      "Resting heart rate (bpm)": 52,
+      "Heart rate variability (ms)": 57,
+      "Day Strain": 13.9,
+      "Sleep performance %": 84,
+      "Asleep duration (min)": 420,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-09-20 23:35:37",
+      "Recovery score %": 82,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 78,
+      "Day Strain": 16.8,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 435,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-09-19 22:38:03",
+      "Recovery score %": 43,
+      "Resting heart rate (bpm)": 53,
+      "Heart rate variability (ms)": 63,
+      "Day Strain": 7.1,
+      "Sleep performance %": 91,
+      "Asleep duration (min)": 464,
+      "Respiratory rate (rpm)": 15.6
+    },
+    {
+      "Cycle start time": "2026-09-18 23:19:20",
+      "Recovery score %": 89,
+      "Resting heart rate (bpm)": 47,
+      "Heart rate variability (ms)": 82,
+      "Day Strain": 18.6,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 429,
+      "Respiratory rate (rpm)": 15
+    },
+    {
+      "Cycle start time": "2026-09-17 22:33:38",
+      "Recovery score %": 35,
+      "Resting heart rate (bpm)": 51,
+      "Heart rate variability (ms)": 61,
+      "Day Strain": 6.6,
+      "Sleep performance %": 89,
+      "Asleep duration (min)": 445,
+      "Respiratory rate (rpm)": 15.4
+    },
+    {
+      "Cycle start time": "2026-09-16 23:18:28",
+      "Recovery score %": 51,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 66,
+      "Day Strain": 16.7,
+      "Sleep performance %": 90,
+      "Asleep duration (min)": 426,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-09-15 22:48:09",
+      "Recovery score %": 59,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 69,
+      "Day Strain": 12.9,
+      "Sleep performance %": 79,
+      "Asleep duration (min)": 384,
+      "Respiratory rate (rpm)": 15.6
+    },
+    {
+      "Cycle start time": "2026-09-14 22:45:53",
+      "Recovery score %": 48,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 65,
+      "Day Strain": 14.5,
+      "Sleep performance %": 97,
+      "Asleep duration (min)": 478,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-09-13 22:44:43",
+      "Recovery score %": 68,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 16,
+      "Sleep performance %": 88,
+      "Asleep duration (min)": 398,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-09-12 22:29:33",
+      "Recovery score %": 49,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 65,
+      "Day Strain": 10.1,
+      "Sleep performance %": 83,
+      "Asleep duration (min)": 406,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-09-11 22:48:36",
+      "Recovery score %": 65,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 15,
+      "Sleep performance %": 84,
+      "Asleep duration (min)": 408,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-09-10 23:01:14",
+      "Recovery score %": 44,
+      "Resting heart rate (bpm)": 51,
+      "Heart rate variability (ms)": 64,
+      "Day Strain": 14.9,
+      "Sleep performance %": 78,
+      "Asleep duration (min)": 382,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-09-09 22:37:58",
+      "Recovery score %": 66,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 15.7,
+      "Sleep performance %": 93,
+      "Asleep duration (min)": 438,
+      "Respiratory rate (rpm)": 15.5
+    },
+    {
+      "Cycle start time": "2026-09-08 22:41:33",
+      "Recovery score %": 62,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 71,
+      "Day Strain": 12.4,
+      "Sleep performance %": 85,
+      "Asleep duration (min)": 410,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-09-07 22:33:47",
+      "Recovery score %": 59,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 68,
+      "Day Strain": 14.7,
+      "Sleep performance %": 91,
+      "Asleep duration (min)": 439,
+      "Respiratory rate (rpm)": 15.6
+    },
+    {
+      "Cycle start time": "2026-09-06 22:33:40",
+      "Recovery score %": 99,
+      "Resting heart rate (bpm)": 44,
+      "Heart rate variability (ms)": 83,
+      "Day Strain": 14.4,
+      "Sleep performance %": 99,
+      "Asleep duration (min)": 429,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-09-05 22:28:28",
+      "Recovery score %": 57,
+      "Resting heart rate (bpm)": 51,
+      "Heart rate variability (ms)": 67,
+      "Day Strain": 7,
+      "Sleep performance %": 90,
+      "Asleep duration (min)": 458,
+      "Respiratory rate (rpm)": 15.8
+    },
+    {
+      "Cycle start time": "2026-09-04 21:43:31",
+      "Recovery score %": 77,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 76,
+      "Day Strain": 18.1,
+      "Sleep performance %": 87,
+      "Asleep duration (min)": 363,
+      "Respiratory rate (rpm)": 14.8
+    },
+    {
+      "Cycle start time": "2026-09-03 23:13:37",
+      "Recovery score %": null,
+      "Resting heart rate (bpm)": null,
+      "Heart rate variability (ms)": null,
+      "Day Strain": 5.3,
+      "Sleep performance %": null,
+      "Asleep duration (min)": null,
+      "Respiratory rate (rpm)": null
+    },
+    {
+      "Cycle start time": "2026-09-02 23:10:15",
+      "Recovery score %": 70,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 71,
+      "Day Strain": 15.6,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 470,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-09-01 23:27:42",
+      "Recovery score %": 67,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 71,
+      "Day Strain": 12.8,
+      "Sleep performance %": 94,
+      "Asleep duration (min)": 449,
+      "Respiratory rate (rpm)": 14.9
+    },
+    {
+      "Cycle start time": "2026-08-31 22:51:09",
+      "Recovery score %": 61,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 67,
+      "Day Strain": 13.5,
+      "Sleep performance %": 91,
+      "Asleep duration (min)": 450,
+      "Respiratory rate (rpm)": 15
+    },
+    {
+      "Cycle start time": "2026-08-30 23:35:14",
+      "Recovery score %": 97,
+      "Resting heart rate (bpm)": 46,
+      "Heart rate variability (ms)": 81,
+      "Day Strain": 16.1,
+      "Sleep performance %": 92,
+      "Asleep duration (min)": 404,
+      "Respiratory rate (rpm)": 14.7
+    },
+    {
+      "Cycle start time": "2026-08-29 22:32:57",
+      "Recovery score %": 53,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 62,
+      "Day Strain": 8.2,
+      "Sleep performance %": 86,
+      "Asleep duration (min)": 423,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-08-28 23:13:35",
+      "Recovery score %": 44,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 62,
+      "Day Strain": 15.3,
+      "Sleep performance %": 83,
+      "Asleep duration (min)": 408,
+      "Respiratory rate (rpm)": 15.6
+    },
+    {
+      "Cycle start time": "2026-08-27 23:04:10",
+      "Recovery score %": 50,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 62,
+      "Day Strain": 15.4,
+      "Sleep performance %": 81,
+      "Asleep duration (min)": 400,
+      "Respiratory rate (rpm)": 15
+    },
+    {
+      "Cycle start time": "2026-08-26 23:08:31",
+      "Recovery score %": 59,
+      "Resting heart rate (bpm)": 52,
+      "Heart rate variability (ms)": 67,
+      "Day Strain": 15.7,
+      "Sleep performance %": 93,
+      "Asleep duration (min)": 434,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-08-25 22:48:54",
+      "Recovery score %": 44,
+      "Resting heart rate (bpm)": 52,
+      "Heart rate variability (ms)": 64,
+      "Day Strain": 11.9,
+      "Sleep performance %": 89,
+      "Asleep duration (min)": 434,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-08-24 23:23:56",
+      "Recovery score %": 56,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 64,
+      "Day Strain": 15.4,
+      "Sleep performance %": 89,
+      "Asleep duration (min)": 430,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-08-23 23:34:31",
+      "Recovery score %": 79,
+      "Resting heart rate (bpm)": 46,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 14.3,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 440,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-08-22 22:53:58",
+      "Recovery score %": 54,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 63,
+      "Day Strain": 7.9,
+      "Sleep performance %": 85,
+      "Asleep duration (min)": 441,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-08-21 23:32:02",
+      "Recovery score %": 70,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 71,
+      "Day Strain": 19.9,
+      "Sleep performance %": 90,
+      "Asleep duration (min)": 454,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-08-20 23:19:35",
+      "Recovery score %": 65,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 67,
+      "Day Strain": 17.3,
+      "Sleep performance %": 92,
+      "Asleep duration (min)": 467,
+      "Respiratory rate (rpm)": 15.9
+    },
+    {
+      "Cycle start time": "2026-08-19 23:39:23",
+      "Recovery score %": 70,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 68,
+      "Day Strain": 18,
+      "Sleep performance %": 96,
+      "Asleep duration (min)": 453,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-08-18 23:26:50",
+      "Recovery score %": 63,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 66,
+      "Day Strain": 12.9,
+      "Sleep performance %": 84,
+      "Asleep duration (min)": 412,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-08-17 23:09:23",
+      "Recovery score %": 71,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 74,
+      "Day Strain": 15.6,
+      "Sleep performance %": 85,
+      "Asleep duration (min)": 410,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-08-16 23:07:48",
+      "Recovery score %": 93,
+      "Resting heart rate (bpm)": 49,
+      "Heart rate variability (ms)": 80,
+      "Day Strain": 14.4,
+      "Sleep performance %": 99,
+      "Asleep duration (min)": 436,
+      "Respiratory rate (rpm)": 15
+    },
+    {
+      "Cycle start time": "2026-08-15 22:29:59",
+      "Recovery score %": 92,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 78,
+      "Day Strain": 8.2,
+      "Sleep performance %": 93,
+      "Asleep duration (min)": 398,
+      "Respiratory rate (rpm)": 14.8
+    },
+    {
+      "Cycle start time": "2026-08-14 22:32:08",
+      "Recovery score %": 78,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 6.4,
+      "Sleep performance %": 97,
+      "Asleep duration (min)": 419,
+      "Respiratory rate (rpm)": 15.2
+    },
+    {
+      "Cycle start time": "2026-08-13 23:22:10",
+      "Recovery score %": 60,
+      "Resting heart rate (bpm)": 52,
+      "Heart rate variability (ms)": 66,
+      "Day Strain": 6.9,
+      "Sleep performance %": 94,
+      "Asleep duration (min)": 474,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-08-12 22:48:45",
+      "Recovery score %": 80,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 72,
+      "Day Strain": 17.1,
+      "Sleep performance %": 94,
+      "Asleep duration (min)": 442,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-08-11 22:33:42",
+      "Recovery score %": 61,
+      "Resting heart rate (bpm)": 50,
+      "Heart rate variability (ms)": 68,
+      "Day Strain": 12.7,
+      "Sleep performance %": 90,
+      "Asleep duration (min)": 439,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-08-10 23:22:22",
+      "Recovery score %": 54,
+      "Resting heart rate (bpm)": 51,
+      "Heart rate variability (ms)": 64,
+      "Day Strain": 14.9,
+      "Sleep performance %": 89,
+      "Asleep duration (min)": 431,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-08-09 23:22:21",
+      "Recovery score %": 96,
+      "Resting heart rate (bpm)": 48,
+      "Heart rate variability (ms)": 78,
+      "Day Strain": 14.9,
+      "Sleep performance %": 100,
+      "Asleep duration (min)": 460,
+      "Respiratory rate (rpm)": 15.1
+    },
+    {
+      "Cycle start time": "2026-08-08 23:21:19",
+      "Recovery score %": 25,
+      "Resting heart rate (bpm)": 54,
+      "Heart rate variability (ms)": 55,
+      "Day Strain": 6.6,
+      "Sleep performance %": 81,
+      "Asleep duration (min)": 420,
+      "Respiratory rate (rpm)": 15.3
+    },
+    {
+      "Cycle start time": "2026-08-07 22:03:06",
+      "Recovery score %": 50,
+      "Resting heart rate (bpm)": 51,
+      "Heart rate variability (ms)": 64,
+      "Day Strain": 19.8,
+      "Sleep performance %": 76,
+      "Asleep duration (min)": 351,
+      "Respiratory rate (rpm)": 15.6
+    }
+  ],
+  "workouts": [
+    {
+      "Workout start time": "2026-11-04 18:46:53",
+      "Duration (min)": 67,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 11,
+      "Average HR (bpm)": 125,
+      "Max HR (bpm)": 162,
+      "Energy burned (cal)": 562
+    },
+    {
+      "Workout start time": "2026-11-03 07:49:00",
+      "Duration (min)": 42,
+      "Activity name": "Running",
+      "Activity Strain": 12.4,
+      "Average HR (bpm)": 151,
+      "Max HR (bpm)": 183,
+      "Energy burned (cal)": 465
+    },
+    {
+      "Workout start time": "2026-11-02 19:24:14",
+      "Duration (min)": 60,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.2,
+      "Average HR (bpm)": 151,
+      "Max HR (bpm)": 187,
+      "Energy burned (cal)": 695
+    },
+    {
+      "Workout start time": "2026-10-31 08:24:28",
+      "Duration (min)": 96,
+      "Activity name": "Hyrox",
+      "Activity Strain": 18.4,
+      "Average HR (bpm)": 160,
+      "Max HR (bpm)": 192,
+      "Energy burned (cal)": 1207
+    },
+    {
+      "Workout start time": "2026-10-30 19:02:29",
+      "Duration (min)": 57,
+      "Activity name": "CrossFit",
+      "Activity Strain": 15.4,
+      "Average HR (bpm)": 147,
+      "Max HR (bpm)": 184,
+      "Energy burned (cal)": 632
+    },
+    {
+      "Workout start time": "2026-10-29 18:52:34",
+      "Duration (min)": 61,
+      "Activity name": "Hyrox",
+      "Activity Strain": 14.8,
+      "Average HR (bpm)": 157,
+      "Max HR (bpm)": 185,
+      "Energy burned (cal)": 741
+    },
+    {
+      "Workout start time": "2026-10-28 19:16:41",
+      "Duration (min)": 77,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 10.5,
+      "Average HR (bpm)": 120,
+      "Max HR (bpm)": 156,
+      "Energy burned (cal)": 570
+    },
+    {
+      "Workout start time": "2026-10-27 07:00:53",
+      "Duration (min)": 53,
+      "Activity name": "Running",
+      "Activity Strain": 11.5,
+      "Average HR (bpm)": 152,
+      "Max HR (bpm)": 178,
+      "Energy burned (cal)": 592
+    },
+    {
+      "Workout start time": "2026-10-26 19:19:20",
+      "Duration (min)": 66,
+      "Activity name": "CrossFit",
+      "Activity Strain": 15.4,
+      "Average HR (bpm)": 155,
+      "Max HR (bpm)": 178,
+      "Energy burned (cal)": 800
+    },
+    {
+      "Workout start time": "2026-10-25 07:03:15",
+      "Duration (min)": 42,
+      "Activity name": "Yoga",
+      "Activity Strain": 5.1,
+      "Average HR (bpm)": 92,
+      "Max HR (bpm)": 110,
+      "Energy burned (cal)": 171
+    },
+    {
+      "Workout start time": "2026-10-24 06:54:19",
+      "Duration (min)": 87,
+      "Activity name": "Running",
+      "Activity Strain": 12.9,
+      "Average HR (bpm)": 145,
+      "Max HR (bpm)": 173,
+      "Energy burned (cal)": 891
+    },
+    {
+      "Workout start time": "2026-10-22 18:37:29",
+      "Duration (min)": 69,
+      "Activity name": "Hyrox",
+      "Activity Strain": 14.5,
+      "Average HR (bpm)": 156,
+      "Max HR (bpm)": 184,
+      "Energy burned (cal)": 843
+    },
+    {
+      "Workout start time": "2026-10-21 18:56:42",
+      "Duration (min)": 67,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 9.6,
+      "Average HR (bpm)": 125,
+      "Max HR (bpm)": 161,
+      "Energy burned (cal)": 524
+    },
+    {
+      "Workout start time": "2026-10-19 18:51:49",
+      "Duration (min)": 62,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.8,
+      "Average HR (bpm)": 154,
+      "Max HR (bpm)": 184,
+      "Energy burned (cal)": 732
+    },
+    {
+      "Workout start time": "2026-10-18 06:58:29",
+      "Duration (min)": 41,
+      "Activity name": "Yoga",
+      "Activity Strain": 4.1,
+      "Average HR (bpm)": 90,
+      "Max HR (bpm)": 107,
+      "Energy burned (cal)": 151
+    },
+    {
+      "Workout start time": "2026-10-17 08:09:41",
+      "Duration (min)": 82,
+      "Activity name": "Hyrox",
+      "Activity Strain": 16.8,
+      "Average HR (bpm)": 164,
+      "Max HR (bpm)": 193,
+      "Energy burned (cal)": 1097
+    },
+    {
+      "Workout start time": "2026-10-16 18:26:11",
+      "Duration (min)": 45,
+      "Activity name": "CrossFit",
+      "Activity Strain": 11.2,
+      "Average HR (bpm)": 146,
+      "Max HR (bpm)": 178,
+      "Energy burned (cal)": 513
+    },
+    {
+      "Workout start time": "2026-10-15 19:00:05",
+      "Duration (min)": 56,
+      "Activity name": "Hyrox",
+      "Activity Strain": 10.4,
+      "Average HR (bpm)": 147,
+      "Max HR (bpm)": 181,
+      "Energy burned (cal)": 629
+    },
+    {
+      "Workout start time": "2026-10-14 19:21:39",
+      "Duration (min)": 50,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 7.5,
+      "Average HR (bpm)": 111,
+      "Max HR (bpm)": 160,
+      "Energy burned (cal)": 318
+    },
+    {
+      "Workout start time": "2026-10-13 07:25:18",
+      "Duration (min)": 40,
+      "Activity name": "Running",
+      "Activity Strain": 8.7,
+      "Average HR (bpm)": 151,
+      "Max HR (bpm)": 177,
+      "Energy burned (cal)": 474
+    },
+    {
+      "Workout start time": "2026-10-12 19:04:51",
+      "Duration (min)": 53,
+      "Activity name": "CrossFit",
+      "Activity Strain": 9.8,
+      "Average HR (bpm)": 142,
+      "Max HR (bpm)": 179,
+      "Energy burned (cal)": 543
+    },
+    {
+      "Workout start time": "2026-10-11 08:15:09",
+      "Duration (min)": 30,
+      "Activity name": "Yoga",
+      "Activity Strain": 3.6,
+      "Average HR (bpm)": 91,
+      "Max HR (bpm)": 109,
+      "Energy burned (cal)": 98
+    },
+    {
+      "Workout start time": "2026-10-10 06:44:37",
+      "Duration (min)": 65,
+      "Activity name": "Running",
+      "Activity Strain": 10.7,
+      "Average HR (bpm)": 141,
+      "Max HR (bpm)": 165,
+      "Energy burned (cal)": 652
+    },
+    {
+      "Workout start time": "2026-10-09 19:11:20",
+      "Duration (min)": 56,
+      "Activity name": "CrossFit",
+      "Activity Strain": 15.3,
+      "Average HR (bpm)": 156,
+      "Max HR (bpm)": 183,
+      "Energy burned (cal)": 733
+    },
+    {
+      "Workout start time": "2026-10-08 18:46:56",
+      "Duration (min)": 73,
+      "Activity name": "Hyrox",
+      "Activity Strain": 16.4,
+      "Average HR (bpm)": 156,
+      "Max HR (bpm)": 188,
+      "Energy burned (cal)": 853
+    },
+    {
+      "Workout start time": "2026-10-07 20:48:24",
+      "Duration (min)": 36,
+      "Activity name": "Yoga",
+      "Activity Strain": 5,
+      "Average HR (bpm)": 95,
+      "Max HR (bpm)": 112,
+      "Energy burned (cal)": 174
+    },
+    {
+      "Workout start time": "2026-10-07 18:11:51",
+      "Duration (min)": 75,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 10.9,
+      "Average HR (bpm)": 117,
+      "Max HR (bpm)": 161,
+      "Energy burned (cal)": 518
+    },
+    {
+      "Workout start time": "2026-10-06 07:26:19",
+      "Duration (min)": 43,
+      "Activity name": "Running",
+      "Activity Strain": 14,
+      "Average HR (bpm)": 160,
+      "Max HR (bpm)": 184,
+      "Energy burned (cal)": 554
+    },
+    {
+      "Workout start time": "2026-10-05 18:10:14",
+      "Duration (min)": 68,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.9,
+      "Average HR (bpm)": 156,
+      "Max HR (bpm)": 182,
+      "Energy burned (cal)": 788
+    },
+    {
+      "Workout start time": "2026-10-04 08:04:16",
+      "Duration (min)": 41,
+      "Activity name": "Yoga",
+      "Activity Strain": 4.6,
+      "Average HR (bpm)": 88,
+      "Max HR (bpm)": 111,
+      "Energy burned (cal)": 112
+    },
+    {
+      "Workout start time": "2026-10-03 07:27:06",
+      "Duration (min)": 98,
+      "Activity name": "Hyrox",
+      "Activity Strain": 18.1,
+      "Average HR (bpm)": 162,
+      "Max HR (bpm)": 189,
+      "Energy burned (cal)": 1254
+    },
+    {
+      "Workout start time": "2026-10-02 18:59:30",
+      "Duration (min)": 57,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.2,
+      "Average HR (bpm)": 148,
+      "Max HR (bpm)": 178,
+      "Energy burned (cal)": 658
+    },
+    {
+      "Workout start time": "2026-10-01 19:07:16",
+      "Duration (min)": 76,
+      "Activity name": "Hyrox",
+      "Activity Strain": 14.9,
+      "Average HR (bpm)": 157,
+      "Max HR (bpm)": 186,
+      "Energy burned (cal)": 931
+    },
+    {
+      "Workout start time": "2026-09-30 20:11:25",
+      "Duration (min)": 34,
+      "Activity name": "Yoga",
+      "Activity Strain": 5.2,
+      "Average HR (bpm)": 96,
+      "Max HR (bpm)": 110,
+      "Energy burned (cal)": 153
+    },
+    {
+      "Workout start time": "2026-09-30 18:33:12",
+      "Duration (min)": 77,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 10.8,
+      "Average HR (bpm)": 119,
+      "Max HR (bpm)": 163,
+      "Energy burned (cal)": 565
+    },
+    {
+      "Workout start time": "2026-09-29 07:00:27",
+      "Duration (min)": 51,
+      "Activity name": "Running",
+      "Activity Strain": 12.4,
+      "Average HR (bpm)": 158,
+      "Max HR (bpm)": 184,
+      "Energy burned (cal)": 612
+    },
+    {
+      "Workout start time": "2026-09-27 06:53:25",
+      "Duration (min)": 35,
+      "Activity name": "Yoga",
+      "Activity Strain": 5,
+      "Average HR (bpm)": 90,
+      "Max HR (bpm)": 106,
+      "Energy burned (cal)": 116
+    },
+    {
+      "Workout start time": "2026-09-23 20:23:39",
+      "Duration (min)": 37,
+      "Activity name": "Yoga",
+      "Activity Strain": 4.1,
+      "Average HR (bpm)": 86,
+      "Max HR (bpm)": 108,
+      "Energy burned (cal)": 116
+    },
+    {
+      "Workout start time": "2026-09-23 18:39:18",
+      "Duration (min)": 69,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 10.8,
+      "Average HR (bpm)": 115,
+      "Max HR (bpm)": 162,
+      "Energy burned (cal)": 484
+    },
+    {
+      "Workout start time": "2026-09-22 08:01:52",
+      "Duration (min)": 47,
+      "Activity name": "Running",
+      "Activity Strain": 12.4,
+      "Average HR (bpm)": 154,
+      "Max HR (bpm)": 181,
+      "Energy burned (cal)": 582
+    },
+    {
+      "Workout start time": "2026-09-21 19:05:10",
+      "Duration (min)": 62,
+      "Activity name": "CrossFit",
+      "Activity Strain": 14.9,
+      "Average HR (bpm)": 152,
+      "Max HR (bpm)": 186,
+      "Energy burned (cal)": 770
+    },
+    {
+      "Workout start time": "2026-09-19 08:27:49",
+      "Duration (min)": 87,
+      "Activity name": "Hyrox",
+      "Activity Strain": 17.1,
+      "Average HR (bpm)": 166,
+      "Max HR (bpm)": 190,
+      "Energy burned (cal)": 1171
+    },
+    {
+      "Workout start time": "2026-09-17 19:09:53",
+      "Duration (min)": 70,
+      "Activity name": "Hyrox",
+      "Activity Strain": 14.9,
+      "Average HR (bpm)": 161,
+      "Max HR (bpm)": 188,
+      "Energy burned (cal)": 847
+    },
+    {
+      "Workout start time": "2026-09-16 20:34:00",
+      "Duration (min)": 36,
+      "Activity name": "Yoga",
+      "Activity Strain": 4.4,
+      "Average HR (bpm)": 91,
+      "Max HR (bpm)": 115,
+      "Energy burned (cal)": 144
+    },
+    {
+      "Workout start time": "2026-09-16 18:55:37",
+      "Duration (min)": 70,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 10.2,
+      "Average HR (bpm)": 116,
+      "Max HR (bpm)": 165,
+      "Energy burned (cal)": 467
+    },
+    {
+      "Workout start time": "2026-09-15 07:07:20",
+      "Duration (min)": 43,
+      "Activity name": "Running",
+      "Activity Strain": 13.4,
+      "Average HR (bpm)": 160,
+      "Max HR (bpm)": 183,
+      "Energy burned (cal)": 511
+    },
+    {
+      "Workout start time": "2026-09-14 18:08:08",
+      "Duration (min)": 62,
+      "Activity name": "CrossFit",
+      "Activity Strain": 14.5,
+      "Average HR (bpm)": 150,
+      "Max HR (bpm)": 182,
+      "Energy burned (cal)": 706
+    },
+    {
+      "Workout start time": "2026-09-13 08:14:16",
+      "Duration (min)": 37,
+      "Activity name": "Yoga",
+      "Activity Strain": 4,
+      "Average HR (bpm)": 92,
+      "Max HR (bpm)": 113,
+      "Energy burned (cal)": 110
+    },
+    {
+      "Workout start time": "2026-09-12 07:36:05",
+      "Duration (min)": 84,
+      "Activity name": "Running",
+      "Activity Strain": 13.7,
+      "Average HR (bpm)": 143,
+      "Max HR (bpm)": 174,
+      "Energy burned (cal)": 882
+    },
+    {
+      "Workout start time": "2026-09-11 18:39:01",
+      "Duration (min)": 67,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.7,
+      "Average HR (bpm)": 153,
+      "Max HR (bpm)": 182,
+      "Energy burned (cal)": 791
+    },
+    {
+      "Workout start time": "2026-09-10 18:05:25",
+      "Duration (min)": 62,
+      "Activity name": "Hyrox",
+      "Activity Strain": 14.5,
+      "Average HR (bpm)": 155,
+      "Max HR (bpm)": 184,
+      "Energy burned (cal)": 740
+    },
+    {
+      "Workout start time": "2026-09-09 20:40:22",
+      "Duration (min)": 41,
+      "Activity name": "Yoga",
+      "Activity Strain": 2.8,
+      "Average HR (bpm)": 89,
+      "Max HR (bpm)": 105,
+      "Energy burned (cal)": 100
+    },
+    {
+      "Workout start time": "2026-09-09 18:51:10",
+      "Duration (min)": 60,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 9.8,
+      "Average HR (bpm)": 114,
+      "Max HR (bpm)": 167,
+      "Energy burned (cal)": 416
+    },
+    {
+      "Workout start time": "2026-09-08 08:08:54",
+      "Duration (min)": 45,
+      "Activity name": "Running",
+      "Activity Strain": 13.1,
+      "Average HR (bpm)": 155,
+      "Max HR (bpm)": 183,
+      "Energy burned (cal)": 547
+    },
+    {
+      "Workout start time": "2026-09-07 18:15:53",
+      "Duration (min)": 64,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.1,
+      "Average HR (bpm)": 148,
+      "Max HR (bpm)": 188,
+      "Energy burned (cal)": 709
+    },
+    {
+      "Workout start time": "2026-09-05 07:56:30",
+      "Duration (min)": 83,
+      "Activity name": "Hyrox",
+      "Activity Strain": 17,
+      "Average HR (bpm)": 162,
+      "Max HR (bpm)": 193,
+      "Energy burned (cal)": 1066
+    },
+    {
+      "Workout start time": "2026-09-03 18:39:03",
+      "Duration (min)": 60,
+      "Activity name": "Hyrox",
+      "Activity Strain": 14.2,
+      "Average HR (bpm)": 159,
+      "Max HR (bpm)": 188,
+      "Energy burned (cal)": 773
+    },
+    {
+      "Workout start time": "2026-09-02 20:49:45",
+      "Duration (min)": 31,
+      "Activity name": "Yoga",
+      "Activity Strain": 4.8,
+      "Average HR (bpm)": 92,
+      "Max HR (bpm)": 106,
+      "Energy burned (cal)": 122
+    },
+    {
+      "Workout start time": "2026-09-02 19:00:15",
+      "Duration (min)": 66,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 10.8,
+      "Average HR (bpm)": 120,
+      "Max HR (bpm)": 161,
+      "Energy burned (cal)": 509
+    },
+    {
+      "Workout start time": "2026-09-01 06:50:40",
+      "Duration (min)": 52,
+      "Activity name": "Running",
+      "Activity Strain": 12,
+      "Average HR (bpm)": 151,
+      "Max HR (bpm)": 184,
+      "Energy burned (cal)": 588
+    },
+    {
+      "Workout start time": "2026-08-31 19:14:43",
+      "Duration (min)": 55,
+      "Activity name": "CrossFit",
+      "Activity Strain": 14.6,
+      "Average HR (bpm)": 152,
+      "Max HR (bpm)": 181,
+      "Energy burned (cal)": 659
+    },
+    {
+      "Workout start time": "2026-08-30 07:49:49",
+      "Duration (min)": 30,
+      "Activity name": "Yoga",
+      "Activity Strain": 3.6,
+      "Average HR (bpm)": 93,
+      "Max HR (bpm)": 115,
+      "Energy burned (cal)": 112
+    },
+    {
+      "Workout start time": "2026-08-29 06:52:38",
+      "Duration (min)": 90,
+      "Activity name": "Running",
+      "Activity Strain": 13,
+      "Average HR (bpm)": 148,
+      "Max HR (bpm)": 169,
+      "Energy burned (cal)": 1024
+    },
+    {
+      "Workout start time": "2026-08-28 18:33:10",
+      "Duration (min)": 69,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.4,
+      "Average HR (bpm)": 155,
+      "Max HR (bpm)": 189,
+      "Energy burned (cal)": 812
+    },
+    {
+      "Workout start time": "2026-08-27 18:29:54",
+      "Duration (min)": 70,
+      "Activity name": "Hyrox",
+      "Activity Strain": 14.6,
+      "Average HR (bpm)": 154,
+      "Max HR (bpm)": 182,
+      "Energy burned (cal)": 844
+    },
+    {
+      "Workout start time": "2026-08-26 18:27:50",
+      "Duration (min)": 60,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 9.1,
+      "Average HR (bpm)": 123,
+      "Max HR (bpm)": 162,
+      "Energy burned (cal)": 467
+    },
+    {
+      "Workout start time": "2026-08-25 07:22:15",
+      "Duration (min)": 46,
+      "Activity name": "Running",
+      "Activity Strain": 13.6,
+      "Average HR (bpm)": 159,
+      "Max HR (bpm)": 181,
+      "Energy burned (cal)": 580
+    },
+    {
+      "Workout start time": "2026-08-24 19:02:20",
+      "Duration (min)": 60,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.2,
+      "Average HR (bpm)": 148,
+      "Max HR (bpm)": 179,
+      "Energy burned (cal)": 650
+    },
+    {
+      "Workout start time": "2026-08-23 07:43:35",
+      "Duration (min)": 32,
+      "Activity name": "Yoga",
+      "Activity Strain": 2.9,
+      "Average HR (bpm)": 94,
+      "Max HR (bpm)": 110,
+      "Energy burned (cal)": 160
+    },
+    {
+      "Workout start time": "2026-08-22 07:09:29",
+      "Duration (min)": 95,
+      "Activity name": "Hyrox",
+      "Activity Strain": 17.9,
+      "Average HR (bpm)": 163,
+      "Max HR (bpm)": 192,
+      "Energy burned (cal)": 1239
+    },
+    {
+      "Workout start time": "2026-08-21 18:25:55",
+      "Duration (min)": 63,
+      "Activity name": "CrossFit",
+      "Activity Strain": 15.2,
+      "Average HR (bpm)": 151,
+      "Max HR (bpm)": 187,
+      "Energy burned (cal)": 724
+    },
+    {
+      "Workout start time": "2026-08-20 18:45:00",
+      "Duration (min)": 78,
+      "Activity name": "Hyrox",
+      "Activity Strain": 16.3,
+      "Average HR (bpm)": 163,
+      "Max HR (bpm)": 187,
+      "Energy burned (cal)": 987
+    },
+    {
+      "Workout start time": "2026-08-19 18:49:53",
+      "Duration (min)": 60,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 10.8,
+      "Average HR (bpm)": 123,
+      "Max HR (bpm)": 155,
+      "Energy burned (cal)": 451
+    },
+    {
+      "Workout start time": "2026-08-18 08:19:49",
+      "Duration (min)": 50,
+      "Activity name": "Running",
+      "Activity Strain": 13.6,
+      "Average HR (bpm)": 152,
+      "Max HR (bpm)": 187,
+      "Energy burned (cal)": 615
+    },
+    {
+      "Workout start time": "2026-08-17 18:36:29",
+      "Duration (min)": 59,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13,
+      "Average HR (bpm)": 146,
+      "Max HR (bpm)": 181,
+      "Energy burned (cal)": 651
+    },
+    {
+      "Workout start time": "2026-08-13 19:08:16",
+      "Duration (min)": 68,
+      "Activity name": "Hyrox",
+      "Activity Strain": 15.9,
+      "Average HR (bpm)": 157,
+      "Max HR (bpm)": 191,
+      "Energy burned (cal)": 821
+    },
+    {
+      "Workout start time": "2026-08-12 19:07:48",
+      "Duration (min)": 66,
+      "Activity name": "Weightlifting",
+      "Activity Strain": 10.5,
+      "Average HR (bpm)": 115,
+      "Max HR (bpm)": 164,
+      "Energy burned (cal)": 422
+    },
+    {
+      "Workout start time": "2026-08-11 08:14:23",
+      "Duration (min)": 42,
+      "Activity name": "Running",
+      "Activity Strain": 13.1,
+      "Average HR (bpm)": 157,
+      "Max HR (bpm)": 184,
+      "Energy burned (cal)": 531
+    },
+    {
+      "Workout start time": "2026-08-10 18:26:01",
+      "Duration (min)": 64,
+      "Activity name": "CrossFit",
+      "Activity Strain": 13.5,
+      "Average HR (bpm)": 148,
+      "Max HR (bpm)": 185,
+      "Energy burned (cal)": 694
+    },
+    {
+      "Workout start time": "2026-08-09 06:51:36",
+      "Duration (min)": 37,
+      "Activity name": "Yoga",
+      "Activity Strain": 3.3,
+      "Average HR (bpm)": 95,
+      "Max HR (bpm)": 118,
+      "Energy burned (cal)": 126
+    },
+    {
+      "Workout start time": "2026-08-08 07:46:00",
+      "Duration (min)": 90,
+      "Activity name": "Hyrox",
+      "Activity Strain": 18.6,
+      "Average HR (bpm)": 159,
+      "Max HR (bpm)": 190,
+      "Energy burned (cal)": 1099
+    }
+  ],
+  "performances": []
+}
