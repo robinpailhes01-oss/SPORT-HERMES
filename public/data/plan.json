@@ -1,0 +1,1003 @@
+{
+  "$schema": "./plan.schema.json",
+  "schema": "sport-hermes/plan@1",
+  "demo": true,
+  "demoNote": "EXEMPLE DE DÉMO — à remplacer par le plan écrit par le coach IA.",
+  "id": "hiver-2026-masse",
+  "title": "Plan 90 jours — Prise de masse",
+  "goal": "Prendre de la masse en s'entraînant dur cet hiver (1 800 m), puis Hyrox solo chronométré au printemps.",
+  "start": "2026-12-07",
+  "end": "2027-03-06",
+  "event": {
+    "name": "Hyrox solo",
+    "date": "2027-04-03",
+    "description": "Test chronométré en solo, après le plan."
+  },
+  "targets": {
+    "sessionsPerWeek": 5,
+    "sleepMinutes": 450,
+    "bedtime": "23:45",
+    "weight": {
+      "startKg": 76.8,
+      "gainPerWeekKg": [
+        0.2,
+        0.4
+      ]
+    }
+  },
+  "benchmarks": [
+    {
+      "id": "squat-3rm",
+      "label": "Back squat 3RM",
+      "unit": "kg",
+      "better": "higher",
+      "baseline": {
+        "value": 80,
+        "estimated": true,
+        "display": "80 kg"
+      }
+    },
+    {
+      "id": "clean",
+      "label": "Clean",
+      "unit": "kg",
+      "better": "higher",
+      "baseline": {
+        "value": 80,
+        "estimated": true,
+        "display": "80 kg"
+      }
+    },
+    {
+      "id": "bench-60",
+      "label": "Développé couché 60 kg",
+      "unit": "reps",
+      "better": "higher",
+      "baseline": {
+        "value": 7,
+        "estimated": true,
+        "display": "7 à 10 reps"
+      }
+    },
+    {
+      "id": "run-5k",
+      "label": "5 km",
+      "unit": "s",
+      "better": "lower",
+      "baseline": {
+        "value": 1300,
+        "estimated": true,
+        "display": "≈ 21:40 (4:20/km)"
+      }
+    },
+    {
+      "id": "hyrox",
+      "label": "Hyrox solo",
+      "unit": "s",
+      "better": "lower",
+      "baseline": null
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "name": "Masse · Fondations",
+      "goal": "Installer le volume, technique propre, s'acclimater à l'altitude.",
+      "start": "2026-12-07",
+      "end": "2027-01-03",
+      "weeks": [
+        {
+          "id": "w1",
+          "index": 1,
+          "start": "2026-12-07",
+          "end": "2026-12-13",
+          "sessions": [
+            {
+              "id": "w1-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 65 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": true,
+              "doneOn": "2026-12-08",
+              "note": null
+            },
+            {
+              "id": "w1-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 50 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": true,
+              "doneOn": "2026-12-09",
+              "note": null
+            },
+            {
+              "id": "w1-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 55 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": true,
+              "doneOn": "2026-12-11",
+              "note": null
+            },
+            {
+              "id": "w1-z1",
+              "title": "Zone 2 — 40 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": true,
+              "doneOn": "2026-12-08",
+              "note": null
+            },
+            {
+              "id": "w1-z2",
+              "title": "Zone 2 — 55 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": true,
+              "doneOn": "2026-12-12",
+              "note": null
+            }
+          ],
+          "tests": [
+            {
+              "id": "t1-squat-3rm",
+              "date": "2026-12-07",
+              "benchmarkId": "squat-3rm",
+              "exercise": "Back squat 3RM",
+              "result": 82.5,
+              "unit": "kg"
+            },
+            {
+              "id": "t1-clean",
+              "date": "2026-12-07",
+              "benchmarkId": "clean",
+              "exercise": "Clean",
+              "result": 77.5,
+              "unit": "kg"
+            },
+            {
+              "id": "t1-bench-60",
+              "date": "2026-12-07",
+              "benchmarkId": "bench-60",
+              "exercise": "Développé couché 60 kg",
+              "result": 9,
+              "unit": "reps"
+            },
+            {
+              "id": "t1-run-5k",
+              "date": "2026-12-07",
+              "benchmarkId": "run-5k",
+              "exercise": "5 km",
+              "result": 1325,
+              "unit": "s"
+            }
+          ]
+        },
+        {
+          "id": "w2",
+          "index": 2,
+          "start": "2026-12-14",
+          "end": "2026-12-20",
+          "sessions": [
+            {
+              "id": "w2-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 65 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": true,
+              "doneOn": "2026-12-14",
+              "note": null
+            },
+            {
+              "id": "w2-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 50 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": true,
+              "doneOn": "2026-12-16",
+              "note": null
+            },
+            {
+              "id": "w2-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 55 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": true,
+              "doneOn": "2026-12-17",
+              "note": null
+            },
+            {
+              "id": "w2-z1",
+              "title": "Zone 2 — 43 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": true,
+              "doneOn": "2026-12-15",
+              "note": null
+            },
+            {
+              "id": "w2-z2",
+              "title": "Zone 2 — 58 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": true,
+              "doneOn": "2026-12-19",
+              "note": null
+            }
+          ],
+          "tests": []
+        },
+        {
+          "id": "w3",
+          "index": 3,
+          "start": "2026-12-21",
+          "end": "2026-12-27",
+          "sessions": [
+            {
+              "id": "w3-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 67.5 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": true,
+              "doneOn": "2026-12-21",
+              "note": null
+            },
+            {
+              "id": "w3-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 52.5 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": true,
+              "doneOn": "2026-12-23",
+              "note": null
+            },
+            {
+              "id": "w3-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 55 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": true,
+              "doneOn": "2026-12-25",
+              "note": null
+            },
+            {
+              "id": "w3-z1",
+              "title": "Zone 2 — 46 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": true,
+              "doneOn": "2026-12-22",
+              "note": null
+            },
+            {
+              "id": "w3-z2",
+              "title": "Zone 2 — 61 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": [
+            {
+              "id": "t2-squat-3rm",
+              "date": "2026-12-21",
+              "benchmarkId": "squat-3rm",
+              "exercise": "Back squat 3RM",
+              "result": 85,
+              "unit": "kg"
+            },
+            {
+              "id": "t2-bench-60",
+              "date": "2026-12-21",
+              "benchmarkId": "bench-60",
+              "exercise": "Développé couché 60 kg",
+              "result": 10,
+              "unit": "reps"
+            }
+          ]
+        },
+        {
+          "id": "w4",
+          "index": 4,
+          "start": "2026-12-28",
+          "end": "2027-01-03",
+          "sessions": [
+            {
+              "id": "w4-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 67.5 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": true,
+              "doneOn": "2026-12-28",
+              "note": null
+            },
+            {
+              "id": "w4-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 52.5 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": true,
+              "doneOn": "2026-12-30",
+              "note": null
+            },
+            {
+              "id": "w4-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 57.5 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": true,
+              "doneOn": "2027-01-01",
+              "note": null
+            },
+            {
+              "id": "w4-z1",
+              "title": "Zone 2 — 49 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": true,
+              "doneOn": "2026-12-29",
+              "note": null
+            },
+            {
+              "id": "w4-z2",
+              "title": "Zone 2 — 64 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": true,
+              "doneOn": "2027-01-01",
+              "note": null
+            }
+          ],
+          "tests": []
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "name": "Masse · Volume",
+      "goal": "Monter le volume utile : plus de séries, charges en hausse chaque semaine.",
+      "start": "2027-01-04",
+      "end": "2027-02-07",
+      "weeks": [
+        {
+          "id": "w5",
+          "index": 5,
+          "start": "2027-01-04",
+          "end": "2027-01-10",
+          "sessions": [
+            {
+              "id": "w5-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 70 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": true,
+              "doneOn": "2027-01-04",
+              "note": null
+            },
+            {
+              "id": "w5-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 55 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": true,
+              "doneOn": "2027-01-06",
+              "note": null
+            },
+            {
+              "id": "w5-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 57.5 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w5-z1",
+              "title": "Zone 2 — 52 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": true,
+              "doneOn": "2027-01-06",
+              "note": null
+            },
+            {
+              "id": "w5-z2",
+              "title": "Zone 2 — 67 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": true,
+              "doneOn": "2027-01-09",
+              "note": null
+            }
+          ],
+          "tests": [
+            {
+              "id": "t3-squat-3rm",
+              "date": "2027-01-05",
+              "benchmarkId": "squat-3rm",
+              "exercise": "Back squat 3RM",
+              "result": 87.5,
+              "unit": "kg"
+            },
+            {
+              "id": "t3-clean",
+              "date": "2027-01-05",
+              "benchmarkId": "clean",
+              "exercise": "Clean",
+              "result": 80,
+              "unit": "kg"
+            },
+            {
+              "id": "t3-bench-60",
+              "date": "2027-01-05",
+              "benchmarkId": "bench-60",
+              "exercise": "Développé couché 60 kg",
+              "result": 11,
+              "unit": "reps"
+            },
+            {
+              "id": "t3-run-5k",
+              "date": "2027-01-05",
+              "benchmarkId": "run-5k",
+              "exercise": "5 km",
+              "result": 1301,
+              "unit": "s"
+            }
+          ]
+        },
+        {
+          "id": "w6",
+          "index": 6,
+          "start": "2027-01-11",
+          "end": "2027-01-17",
+          "sessions": [
+            {
+              "id": "w6-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 70 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": true,
+              "doneOn": "2027-01-11",
+              "note": null
+            },
+            {
+              "id": "w6-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 55 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w6-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 57.5 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w6-z1",
+              "title": "Zone 2 — 55 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": true,
+              "doneOn": "2027-01-12",
+              "note": null
+            },
+            {
+              "id": "w6-z2",
+              "title": "Zone 2 — 70 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": []
+        },
+        {
+          "id": "w7",
+          "index": 7,
+          "start": "2027-01-18",
+          "end": "2027-01-24",
+          "sessions": [
+            {
+              "id": "w7-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 72.5 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w7-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 57.5 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w7-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 60 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w7-z1",
+              "title": "Zone 2 — 58 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w7-z2",
+              "title": "Zone 2 — 73 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": [
+            {
+              "id": "t4-squat-3rm",
+              "date": "2027-01-20",
+              "benchmarkId": "squat-3rm",
+              "exercise": "Back squat 3RM",
+              "result": null,
+              "unit": "kg"
+            },
+            {
+              "id": "t4-clean",
+              "date": "2027-01-20",
+              "benchmarkId": "clean",
+              "exercise": "Clean",
+              "result": null,
+              "unit": "kg"
+            },
+            {
+              "id": "t4-bench-60",
+              "date": "2027-01-20",
+              "benchmarkId": "bench-60",
+              "exercise": "Développé couché 60 kg",
+              "result": null,
+              "unit": "reps"
+            }
+          ]
+        },
+        {
+          "id": "w8",
+          "index": 8,
+          "start": "2027-01-25",
+          "end": "2027-01-31",
+          "sessions": [
+            {
+              "id": "w8-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 72.5 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w8-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 57.5 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w8-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 60 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w8-z1",
+              "title": "Zone 2 — 61 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w8-z2",
+              "title": "Zone 2 — 76 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": []
+        },
+        {
+          "id": "w9",
+          "index": 9,
+          "start": "2027-02-01",
+          "end": "2027-02-07",
+          "sessions": [
+            {
+              "id": "w9-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 75 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w9-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 60 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w9-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 60 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w9-z1",
+              "title": "Zone 2 — 64 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w9-z2",
+              "title": "Zone 2 — 79 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": [
+            {
+              "id": "t5-squat-3rm",
+              "date": "2027-02-04",
+              "benchmarkId": "squat-3rm",
+              "exercise": "Back squat 3RM",
+              "result": null,
+              "unit": "kg"
+            },
+            {
+              "id": "t5-clean",
+              "date": "2027-02-04",
+              "benchmarkId": "clean",
+              "exercise": "Clean",
+              "result": null,
+              "unit": "kg"
+            },
+            {
+              "id": "t5-bench-60",
+              "date": "2027-02-04",
+              "benchmarkId": "bench-60",
+              "exercise": "Développé couché 60 kg",
+              "result": null,
+              "unit": "reps"
+            },
+            {
+              "id": "t5-run-5k",
+              "date": "2027-02-04",
+              "benchmarkId": "run-5k",
+              "exercise": "5 km",
+              "result": null,
+              "unit": "s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "name": "Masse · Intensification",
+      "goal": "Charges lourdes, volume stable, préparer les tests finaux.",
+      "start": "2027-02-08",
+      "end": "2027-03-06",
+      "weeks": [
+        {
+          "id": "w10",
+          "index": 10,
+          "start": "2027-02-08",
+          "end": "2027-02-14",
+          "sessions": [
+            {
+              "id": "w10-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 75 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w10-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 60 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w10-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 62.5 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w10-z1",
+              "title": "Zone 2 — 67 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w10-z2",
+              "title": "Zone 2 — 82 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": []
+        },
+        {
+          "id": "w11",
+          "index": 11,
+          "start": "2027-02-15",
+          "end": "2027-02-21",
+          "sessions": [
+            {
+              "id": "w11-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 77.5 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w11-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 62.5 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w11-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 62.5 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w11-z1",
+              "title": "Zone 2 — 70 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w11-z2",
+              "title": "Zone 2 — 85 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": [
+            {
+              "id": "t6-squat-3rm",
+              "date": "2027-02-19",
+              "benchmarkId": "squat-3rm",
+              "exercise": "Back squat 3RM",
+              "result": null,
+              "unit": "kg"
+            },
+            {
+              "id": "t6-bench-60",
+              "date": "2027-02-19",
+              "benchmarkId": "bench-60",
+              "exercise": "Développé couché 60 kg",
+              "result": null,
+              "unit": "reps"
+            }
+          ]
+        },
+        {
+          "id": "w12",
+          "index": 12,
+          "start": "2027-02-22",
+          "end": "2027-02-28",
+          "sessions": [
+            {
+              "id": "w12-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 77.5 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w12-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 62.5 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w12-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 62.5 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w12-z1",
+              "title": "Zone 2 — 73 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w12-z2",
+              "title": "Zone 2 — 88 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": []
+        },
+        {
+          "id": "w13",
+          "index": 13,
+          "start": "2027-03-01",
+          "end": "2027-03-06",
+          "sessions": [
+            {
+              "id": "w13-fa",
+              "title": "Force A — Bas du corps",
+              "type": "force",
+              "detail": "Back squat 5×5 @ 80 kg · SDT roumain 4×8 · Fentes bulgares 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w13-fb",
+              "title": "Force B — Haut du corps",
+              "type": "force",
+              "detail": "Développé couché 5×5 @ 65 kg · Rowing barre 4×8 · Dips lestés 3×8",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w13-hy",
+              "title": "Hypertrophie — Full body",
+              "type": "hypertrophie",
+              "detail": "Clean 6×2 @ 65 kg · Front squat 4×8 · Tractions 4×max · Militaire 3×10",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w13-z1",
+              "title": "Zone 2 — 75 min",
+              "type": "zone2",
+              "detail": "Course ou ski de rando · FC 130–145 · respiration nasale",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            },
+            {
+              "id": "w13-z2",
+              "title": "Zone 2 — 90 min",
+              "type": "zone2",
+              "detail": "Vélo ou ski de rando · FC 130–145 · allure conversation",
+              "done": false,
+              "doneOn": null,
+              "note": null
+            }
+          ],
+          "tests": [
+            {
+              "id": "t7-squat-3rm",
+              "date": "2027-03-06",
+              "benchmarkId": "squat-3rm",
+              "exercise": "Back squat 3RM",
+              "result": null,
+              "unit": "kg"
+            },
+            {
+              "id": "t7-clean",
+              "date": "2027-03-06",
+              "benchmarkId": "clean",
+              "exercise": "Clean",
+              "result": null,
+              "unit": "kg"
+            },
+            {
+              "id": "t7-bench-60",
+              "date": "2027-03-06",
+              "benchmarkId": "bench-60",
+              "exercise": "Développé couché 60 kg",
+              "result": null,
+              "unit": "reps"
+            },
+            {
+              "id": "t7-run-5k",
+              "date": "2027-03-06",
+              "benchmarkId": "run-5k",
+              "exercise": "5 km",
+              "result": null,
+              "unit": "s"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

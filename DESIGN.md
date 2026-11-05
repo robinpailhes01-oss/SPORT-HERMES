@@ -6,10 +6,11 @@ Règle zéro : **la lisibilité des données gagne tous les conflits avec l'esth
 
 ## Brief
 
-- **Personne** : Robin, consulte l'écran le matin, surtout sur mobile, pour décider de l'intensité du jour.
-- **Promesse** : savoir comment tu vas avant de lire un chiffre, puis comprendre pourquoi en 10 secondes.
-- **Piliers** : (1) l'état du jour d'abord, (2) cause → effet visible (charge ↔ récup), (3) zéro décoration, (4) base d'un futur agent coach IA (données propres et typées).
-- **Contre** : les dashboards fitness colorés, les camemberts, la gamification, les dégradés génériques.
+- **Personne** : Robin, athlète hybride, consulte l'écran le matin sur mobile. Ne lit pas la HRV : il veut savoir quoi faire et voir qu'il progresse.
+- **Objectif de la saison** : prise de masse cet hiver (1 800 m, travail l'après-midi et tard le soir), plan de 90 jours en blocs, tests tous les 15 jours, puis Hyrox solo chronométré au printemps.
+- **Promesse** : un verdict en une phrase le matin, une to-do de la semaine qu'on coche d'un tap, la progression visible.
+- **Piliers** : (1) verdict avant les chiffres, (2) le plan pilote la semaine, (3) progression en vedette, (4) uniquement des faits tirés des données (pas de points, pas de badges), (5) base propre pour le coach IA.
+- **Contre** : le jargon physiologique en façade, la gamification artificielle, les données inventées.
 
 ## Direction artistique
 
@@ -97,101 +98,104 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,.06); /* reflet, pas une ombre */
 | `ring` | 900 ms | remplissage initial de l'anneau |
 | `halo` | 1,2 s | fondu de couleur du halo |
 
-## Structure de l'écran
+## Hiérarchie de l'écran (session 2)
+
+Ordre de lecture = ordre d'usage le matin.
 
 ```
-Desktop (12 col)                                   Mobile (390 px)
-┌───────────────────────────────────────────┐      ┌──────────────┐
-│ Robin | Date  [DÉMO]       sync · 7/30/90 │      │ Robin | Date │
-├──────────┬────────────────────┬───────────┤      │ sync  [DÉMO] │
-│ HRV      │                    │ Sommeil   │      │   (anneau)   │
-│          │  Anneau de récup   │           │      │  ← jour →    │
-│ FC repos │  ← jour →  zone    │ Strain    │      │ HRV │Sommeil │
-├──────────┴───────┬────────────┴───────────┤      │ FC  │ Strain │
-│ Charge semaine(5)│ Tendances (7)          │      │ Charge sem.  │
-│ barres strain    │ HRV / FC repos / Somm. │      │ Tendances    │
-│ KPI + empilée    │ (axe X partagé)        │      │  + 7/30/90 j │
-├──────────────────┴─────┬──────────────────┤      │ Séances      │
-│ Séances récentes (7)   │ Performances (5) │      │ Performances │
-└────────────────────────┴──────────────────┘      └──────────────┘
+Desktop (12 col)                                     Mobile (390 px)
+┌─────────────────────────────────────────────┐      ┌───────────────┐
+│ Robin | Date               sync · [DÉMO]    │      │ Robin | Date  │
+├──────────┬──────────────────────┬───────────┤      │   (anneau)    │
+│ Anneau   │ VERDICT (phrase)     │ Sommeil   │      │   ← jour →    │
+│ ← jour → │ charge conseillée    │ vs 7h30   │      │   VERDICT     │
+│          │ séance conseillée    │ Régularité│      │ charge/séance │
+├──────────┴──── Pourquoi ce score ? ─────────┤      │ Somm.│Régul.  │
+│ Semaine n/13 — TO-DO (7)  │ Ce soir (5)     │      │ TO-DO semaine │
+│ ○ séances du plan         │ ○ ○ ○           │      │ Ce soir       │
+│ test de la semaine        │ Objectifs + série│      │ Objectifs     │
+├───────────────────────────┴─────────────────┤      │ Plan 90 j     │
+│ PLAN 90 JOURS : J-52 fin · J-80 Hyrox solo  │      │ Performances  │
+│ frise des blocs, tests J1…J90, aujourd'hui  │      │ Poids         │
+├───────────────────────────┬─────────────────┤      │ Sommeil       │
+│ Performances (7)          │ Poids (5)       │      │ Charge        │
+├───────────────────────────┼─────────────────┤      │ Leviers       │
+│ Sommeil 30 nuits (7)      │ Charge (5)      │      │ Jalons        │
+├───────────────────────────┼─────────────────┤      └───────────────┘
+│ Leviers (7)               │ Jalons (5)      │
+└───────────────────────────┴─────────────────┘
 ```
 
-- **Hero** : pas de carte, l'anneau flotte sur le halo. Les 4 tuiles se resserrent autour de l'axe de l'anneau.
-- **Charge de la semaine** : semaine calendaire lundi → dimanche qui contient le jour sélectionné (cliquer une
-  barre ne décale pas la fenêtre). Repères pointillés à 10 / 14 / 18 (zones de strain). Jours futurs = trait
-  pointillé. Répartition par **temps** en barre empilée horizontale + légende alignée.
-- **Tendances** : petits multiples sur le même axe X (alignement vertical = mêmes jours d'une métrique à
-  l'autre). Trait plein = moyenne glissante 7 j (≥ 4 mesures sur 7), points = valeurs brutes, pointillé =
-  moyenne 30 j du jour sélectionné. Axe uniquement sous le dernier graphique.
-- **Séances** : liste, pas de cartes. Desktop = 5 colonnes ; mobile = 2 lignes (type + date / durée · strain · FC).
-- **Performances** : structure du tableau présente même vide ; traits à la place des valeurs + encart pointillé
-  qui explique ce qui manque.
+- **Verdict** : zone de récup → une phrase + une charge conseillée (vert : strain 14–18, jaune : 10–14, rouge : < 10) + la
+  première séance non cochée de la semaine qui convient (rouge → zone 2 / mobilité ; vert → force). Jour de test : liste des tests.
+  HRV, pouls au repos, respiration et durée de sommeil sont **repliés** dans « Pourquoi ce score ? », traduits en mots
+  (« mieux que ta normale ») avec la valeur en petit.
+- **To-do de la semaine** : les séances de la semaine du plan qui contient le jour sélectionné, sans jour imposé.
+  Compteur `n/5` + jauge segmentée (verte quand l'objectif est atteint). Tests de la semaine en encart.
+  États : avant le plan (aperçu non cochable de la semaine 1 + « commence dans N jours »), plan terminé, aucun plan.
+- **Ce soir** : 3 cases (protéines, boisson de récup / pas d'alcool, coucher avant l'heure cible du plan). Pour un soir passé,
+  l'heure d'endormissement réelle WHOOP s'affiche à côté (verte si avant la cible).
+- **Objectifs de la semaine** : séances `n/5`, nuits ≥ 7 h 30 (une case par jour, rouge si ratée), soirées 3/3, et la
+  **série** de semaines réussies (≥ 5 séances). La semaine en cours ne casse pas la série tant qu'elle n'est pas finie.
+- **Plan 90 jours** : J- fin du plan et J- échéance (date fournie par le plan), frise des blocs remplie jusqu'à aujourd'hui,
+  tests en jalons cliquables (plein = fait), losange de l'échéance après le plan, prochain test.
+- **Performances** : par repère : départ (estimation « à confirmer » tant que le 1er test n'est pas fait, puis 1er résultat),
+  dernier test, mini-courbe (mieux = vers le haut, y compris pour un chrono), progrès coloré. Résultats futurs jamais affichés.
+- **Poids** : pesées (points), moyenne 7 j (trait), couloir visé depuis le départ (`gainPerWeekKg` du plan), rythme sur
+  21 jours → « dans la cible / trop lent / trop rapide ». Saisie : un tap sur le bouton, clavier numérique, Entrée.
+- **Sommeil** : 30 nuits face à la cible (pointillé), nuits ratées atténuées, régularité, dette, et l'écart de récup mesuré
+  sur TES données après une nuit < 7 h.
+- **Charge** : strain de la semaine + **zone de progression** (moyenne 7 j / moyenne 28 j : < 0,8 maintien, 0,8–1,3
+  progression, 1,3–1,5 vigilance, > 1,5 surcharge). Aucune répartition par type : 44 % des séances WHOOP sont « Activité ».
+- **Leviers** : pour chaque question du journal WHOOP, récup moyenne les jours « oui » − jours « non », triée par impact,
+  barre divergente centrée sur 0, nombre de jours de chaque côté. Minimum 8 jours de chaque côté, sinon listé à part.
+  Plus un levier calculé sans journal : « nuit ≥ 7 h 30 ». Phrase de tête : « Levier n°1 : alcool, −23 points ».
+- **Jalons** : séries de semaines (en cours, record), plus grosse semaine des 3 derniers mois, meilleure série de nuits
+  ≥ cible, records aux tests (le plus récent par repère). Rien d'inventé, rien qui dépende du type de séance WHOOP.
 
-## Patterns d'interaction
+## Interactions
 
-### Jour sélectionné = état global
-`src/state/dashboard.tsx` porte `selected`, `range`, `hover`, `windowEnd`. **Tout** dérive de `selected` :
-anneau, tuiles (écarts vs les 30 jours *précédant* ce jour), halo, semaine, séance surlignée, curseur des
-courbes, date du header.
-
-| Entrée | Action |
+| Geste | Effet |
 |---|---|
-| `←` / `→` | jour précédent / suivant (borné aux données) |
-| `Échap` | retour à aujourd'hui |
-| Boutons ← → du hero (44 px) | idem |
-| Swipe horizontal sur l'anneau (mobile) | gauche = jour suivant, droite = jour précédent |
-| Clic sur une barre de strain | ce jour |
-| Clic sur une courbe (n'importe où sur l'axe X) | jour le plus proche |
-| Clic sur une séance | le jour de la séance |
-| Bouton « Revenir à aujourd'hui » | apparaît dès qu'on quitte aujourd'hui |
+| Tap sur une séance / une case du soir | coché ↔ décoché (ressort sur la coche, tracé du ✓) |
+| Appui long 450 ms (ou touche `N`) sur une séance | note facultative (vibration légère), sans cocher |
+| Tap sur le bouton du poids | champ numérique (`inputmode=decimal`), Entrée pour valider, « Effacer » si déjà saisi |
+| ← / → · Échap | jour précédent / suivant · aujourd'hui (les champs de saisie gardent leurs touches) |
+| Swipe sur l'anneau (mobile) | change de jour |
+| Clic sur un jour (barres, nuits, test, record) | recale tout l'écran sur ce jour |
 
-Les flèches ne sont pas interceptées quand le focus est dans le sélecteur 7/30/90 (focus itinérant Radix).
-
-### Fenêtre des tendances
-La fenêtre 7/30/90 j se termine à aujourd'hui. Elle ne bouge **que** si le jour sélectionné en sort, façon
-« scroll into view » avec une marge (1 / 3 / 7 j). Le domaine X est **interpolé** (pas re-rendu brutalement) :
-toutes les courbes glissent ensemble ; le domaine Y suit. Le curseur du jour sélectionné est interpolé aussi.
-
-### Survol lié entre graphiques
-Le survol d'une courbe ou d'une barre fixe `hover` global : un trait fin + un point apparaissent sur **toutes**
-les courbes, la barre correspondante s'éclaire. Seul le graphique sous le pointeur affiche le tooltip.
-
-### Tooltip glass
-Portail + `position: fixed`, mesuré puis borné : à droite du point, bascule à gauche si la place manque,
-bornage à 12 px des bords. Toujours dans l'écran. Contenu : date, valeur, moyenne 7 j, écart vs moyenne
-30 j (coloré), séance du jour ou « Jour sans séance ». Souris uniquement : au toucher, un tap sélectionne le
-jour (c'est l'écran entier qui devient le tooltip).
-
-### Chiffres animés
-`AnimatedNumber` : valeur Motion + `useTransform` → jamais de saut sec. 0 → valeur au premier affichage
-(calé sur la séquence de chargement), puis valeur → valeur (600 ms).
-
-### Séquence de chargement (une seule fois)
-Structure (fondu du verre) → anneau 0 → valeur (délai 150 ms, 900 ms, easing doux) → tuiles en stagger
-(dès 500 ms, +70 ms) → barres qui montent et courbes qui se dessinent (dès 800 ms).
-L'intro ne se joue **qu'une fois** : un composant remonté plus tard (redimensionnement) s'affiche directement.
-
-### Mouvement réduit
-`prefers-reduced-motion: reduce` → aucune animation (durée 0 partout, `MotionConfig reducedMotion="user"`,
-swipe désactivé, skeleton non pulsé). Vérifié : toute la page est en place 150 ms après le chargement.
+**Jour sélectionné = état global** : verdict, to-do (semaine du jour), checklist du soir, objectifs, curseurs des graphiques,
+halo. Cocher en consultant un jour passé enregistre ce jour comme date de réalisation (rattrapage facile).
 
 ## États designés
 
-| État | Rendu | Déclencheur de revue |
+| État | Rendu | Revue |
 |---|---|---|
-| Chargement | Skeleton glass calqué sur la vraie grille (aucun saut de layout), pulsation douce | `?state=loading` |
-| Erreur de sync | Carte avec label d'erreur (rouge), message clair, détail technique en mono, « Réessayer » ; halo rouge faible ; header « sync échouée » | `?state=error` |
-| Vide | Anneau vide « — » + explication de ce qui est attendu | `?state=empty` |
-| Jour sans séance | Hero « jour sans séance » / « aucune séance pour l'instant » (aujourd'hui) ; liste : ligne dédiée en tête ; tooltip « Jour sans séance » | navigation |
-| Bracelet non porté | Anneau masqué, « Non mesurée », halo gris, tuiles « — » | 4 sept. dans la démo |
-| Cycle en cours (aujourd'hui) | Tuile strain « en cours », pas d'écart (un strain partiel vs une moyenne tromperait), valeur de référence affichée | aujourd'hui |
-| Données de démo | Badge « DONNÉES DÉMO » dans le header + mention en pied de page | `demo: true` |
+| Chargement | skeleton verre | `?state=loading` |
+| Erreur de sync | carte d'erreur + Réessayer, halo rouge faible | `?state=error` |
+| Aucune donnée | anneau vide + explication | `?state=empty` |
+| Avant le plan | to-do en aperçu non cochable, J- jusqu'au début | `?asof=2026-11-20` |
+| Rejouer un jour passé | l'app se comporte comme ce jour-là | `?asof=YYYY-MM-DD` |
+| Forcer la démo | ignore tes CSV | `?source=demo` |
+| Colonnes WHOOP non reconnues | ligne d'alerte jaune en pied de page + tableau en console (dev) | automatique |
+| Pas de pesée / pas de plan / journal trop court | encarts pointillés qui disent quoi faire | automatique |
+| Données ou plan de démo | badges « DONNÉES DÉMO » / « PLAN DÉMO » + pied de page | automatique |
 
 ## Données
 
-- `src/lib/data.ts` → `getData()` : **seul** point d'entrée. Lit `public/data/demo.json` aujourd'hui.
-- `src/types/whoop.ts` : types bruts aux noms de colonnes WHOOP **exacts** + mapping → `DayMetrics`, `Workout`,
-  `Performance`, `Dataset`. Les noms de colonnes bruts n'existent nulle part ailleurs.
-- Un cycle WHOOP commence à l'endormissement : il est rattaché au **jour du réveil** (coucher après midi → lendemain).
-- `Activity name` → catégorie via une table de règles (`Hyrox|ATHX`, `CrossFit|Functional Fitness|HIIT`, `Run…`, `Weight|Power…`, `Yoga|Mobility…`, sinon « Autre »).
-- Démo : `npm run demo:generate` (déterministe). Modèle causal : le strain de la veille et la fatigue accumulée font baisser la HRV et monter la FC repos → récup ; un épisode de maladie, une semaine de décharge, un jour sans bracelet, des nuits courtes le week-end.
+### WHOOP — `src/lib/data.ts` (seul fichier qui connaît les en-têtes bruts)
+- Lit `data/physiological_cycles.csv`, `data/sommeil.csv`, `data/entraînements.csv` (NFC, NFD macOS ou sans accent),
+  `data/journal_entries.csv`. Si absent → `data/demo/…` et badge démo.
+- En-têtes normalisés : BOM retiré, accents retirés, **espaces insécables → espace**, minuscules. Chaque champ propre a
+  une liste de noms exacts (FR + EN) puis un motif de repli (`not` exclut « sommeil léger/profond » pour la durée).
+- Valeurs : virgule décimale acceptée, booléens `true/vrai/oui/1`, dates `YYYY-MM-DD HH:MM` ou `JJ/MM/AAAA HH:MM`.
+- Jointures sur « Heure de début du cycle » (minute près) : sommeil principal (siestes ignorées) et journal → cycle.
+- Un cycle est rattaché au **jour du réveil**.
+
+### Plan — `public/data/plan.json` + `public/data/plan.schema.json`
+Écrit par le coach IA. Aucune séance n'est codée dans l'app. Types : `src/types/plan.ts`.
+
+### Saisies de Robin — `src/lib/plan.ts`
+Cases, notes, checklist du soir, pesées passent par **un seul** hook (`useTracking`) et **une seule** couche de persistance
+(`Persistence.load/save`, aujourd'hui `localStorage`). Pour brancher l'API : remplacer ces deux fonctions.
+Règle de fusion : saisie locale > état écrit dans le plan ; une séance datée après aujourd'hui ne compte jamais comme faite.

@@ -4,3 +4,6 @@ dist
 .DS_Store
 .vite
 screenshots/_tmp
+
+# Exports WHOOP réels : données de santé, jamais commitées par défaut
+public/data/*.csv

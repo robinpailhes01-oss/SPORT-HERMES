@@ -10,8 +10,8 @@ const scenarios = {
   "mobile-390-fold": { w: 390, h: 844, mobile: true },
   "desktop-red": { w: 1440, h: 900, full: false, red: true },
   "mobile-red": { w: 390, h: 844, mobile: true, red: true },
-  "desktop-7j": { w: 1440, h: 900, full: true, range: "7" },
-  "desktop-90j": { w: 1440, h: 900, full: true, range: "90" },
+  "desktop-preplan": { w: 1440, h: 900, full: true, q: "?asof=2026-11-20", wait: 2600 },
+  "mobile-why": { w: 390, h: 844, mobile: true, why: true },
   "desktop-tooltip": { w: 1440, h: 900, tooltip: true },
   "loading": { w: 1440, h: 900, q: "?state=loading" },
   "error": { w: 390, h: 844, mobile: true, q: "?state=error" },
@@ -34,7 +34,13 @@ const scenarios = {
     page.on("pageerror", (e) => errors.push(`${name}: ${e.message}`));
     page.on("console", (m) => m.type() === "error" && errors.push(`${name}: ${m.text()}`));
     await page.goto(URL + (s.q || ""), { waitUntil: "networkidle" });
-    await page.waitForTimeout(s.q ? 900 : 2600);
+    await page.waitForTimeout(s.wait || (s.q ? 900 : 2600));
+    if (s.why) {
+      await page.getByRole("button", { name: /Pourquoi ce score/ }).click();
+      await page.waitForTimeout(500);
+      await page.evaluate(() => window.scrollTo(0, 420));
+      await page.waitForTimeout(200);
+    }
     if (s.range) {
       await page.getByRole("radio", { name: `${s.range} jours` }).first().click().catch(async () => {
         await page.locator(`[aria-label="${s.range} jours"]`).first().click();
@@ -53,7 +59,8 @@ const scenarios = {
       await page.waitForTimeout(1600);
     }
     if (s.tooltip) {
-      const svg = page.locator('svg[aria-label^="HRV"]');
+      const svg = page.locator('svg[aria-label^="Durée de sommeil"]');
+      await svg.scrollIntoViewIfNeeded();
       const box = await svg.boundingBox();
       await page.mouse.move(box.x + box.width * 0.62, box.y + box.height * 0.5);
       await page.waitForTimeout(500);

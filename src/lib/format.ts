@@ -102,3 +102,17 @@ export function formatChrono(sec: number): string {
   const mm = String(m).padStart(h ? 2 : 1, "0");
   return h ? `${h}:${mm}:${String(s).padStart(2, "0")}` : `${mm}:${String(s).padStart(2, "0")}`;
 }
+
+/** Valeur d'un repère selon son unité : "87,5 kg", "11 reps", "21:41" */
+export function formatBench(v: number, unit: "kg" | "reps" | "s"): string {
+  if (unit === "kg") return `${formatNumber(v, v % 1 ? 1 : 0)} kg`;
+  if (unit === "reps") return `${formatNumber(v)} reps`;
+  return formatChrono(v);
+}
+
+/** minutes depuis minuit (peut être négatif / > 1440) → "23:45" */
+export function formatClock(min: number | null): string {
+  if (min == null) return "—";
+  const m = ((Math.round(min) % 1440) + 1440) % 1440;
+  return `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
+}
